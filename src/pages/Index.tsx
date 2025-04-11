@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import { toast } from "@/components/ui/sonner";
+import { toast } from "sonner";
 import JobDescriptionForm from "@/components/JobDescriptionForm";
 import ResultCard from "@/components/ResultCard";
 import { generateRating } from "@/services/ratingService";
